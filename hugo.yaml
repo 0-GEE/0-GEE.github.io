@@ -1,0 +1,48 @@
+baseURL: ""
+languageCode: en-ca
+theme: ennui
+params:
+  author:
+    firstName: Julian
+    lastName: Tang
+    stylizedName: Julian
+  contact:
+    email: j249tang@uwaterloo.ca
+    github: 0-GEE
+  homePageSocials:
+    - name: E-mail
+      value: j249tang@uwaterloo.ca
+      url: mailto://j249tang@uwaterloo.ca
+    - name: GitHub
+      value: 0-GEE
+      url: https://github.com/0-GEE 
+    - name: osu!
+      value: Zer0-G
+      url: https://osu.ppy.sh/users/12577911
+  descriptionText: "I'm an Honours Mathematics student @UWaterloo."
+  postsPreviewCount: 5
+title: Julian Tang
+menus:
+  main:
+    - name: home
+      pageRef: /
+      weight: 10
+    - name: about
+      pageRef: /about
+      weight: 20
+    - name: blog
+      pageRef: /posts
+      weight: 30
+    - name: photography
+      pageRef: /gallery
+      weight: 40
+  footer:
+    - name: source
+      url: "TBA"
+      weight: 10
+    - name: email
+      url: "mailto:j249tang@uwaterloo.ca"
+      weight: 20
+    - name: github
+      url: "https://github.com/0-GEE"
+      weight: 30
