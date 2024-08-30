@@ -38,7 +38,7 @@ menus:
       weight: 40
   footer:
     - name: source
-      url: "TBA"
+      url: "https://github.com/0-GEE/0-GEE.github.io"
       weight: 10
     - name: email
       url: "mailto:j249tang@uwaterloo.ca"
